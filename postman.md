@@ -1,6 +1,6 @@
-# Debian/Ubuntu - Cài nhanh Postman
+# Postman - Quick Installation for Debian/Ubuntu
 
-👉 Người dùng chỉ việc **copy toàn bộ block bên dưới** và paste vào terminal:
+👉 Simply **copy the entire block below** and paste it into your terminal:
 
 ```bash
 sudo rm -rf /opt/Postman
@@ -21,3 +21,13 @@ Type=Application
 Categories=Development;
 EOF
 ```
+
+## What this script does:
+
+1. Removes any existing Postman installation from `/opt/Postman`
+2. Downloads the latest Postman version for Linux
+3. Extracts and installs it to `/opt/Postman`
+4. Creates a desktop entry for easy application launcher access
+5. Cleans up temporary files
+
+After installation, you can launch Postman from your application menu.
